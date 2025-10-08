@@ -150,17 +150,24 @@ body {
   justify-content: center;
   gap: 20px;
   flex-wrap: nowrap;
-  margin: 40px 0;
-  width: 1200px;
   margin: 40px auto;
+  width: 1200px;
 }
 
 .trabalho-item {
   width: 300px;
-  height: 200px;
-  background-color: #ddd;
+  height: 450px;
   position: relative;
   border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.capa-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .play-button {
@@ -177,9 +184,27 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
+  z-index: 10;
 }
 
+#video-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.9);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+#video-modal video {
+  max-width: 90%;
+  max-height: 80%;
+  outline: none;
+}
 /* =============== TÍTULOS DE SEÇÃO =============== */
 .section-title {
   text-align: center;

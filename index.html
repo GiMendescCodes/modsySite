@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Modsy - Veste-se com inteligência, comece aqui</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
- <!-- Cabeçalho com logo e menu -->
+  <!-- Cabeçalho com logo e menu -->
   <header class="header">
     <div class="container">
       <div class="logo">
         <!-- Espaço para logo -->
         <div class="placeholder-logo">
-            <img src="img/logo.png" alt="">
+          <img src="img/logo.png" alt="">
         </div>
       </div>
       <nav class="nav-menu">
@@ -43,7 +44,7 @@
     </div>
   </section>
 
-<!-- Linha horizontal -->
+  <!-- Linha horizontal -->
   <div class="separator-line"></div>
 
   <!-- Texto centralizado: LOOKS incríveis / começam AQUI -->
@@ -58,27 +59,55 @@
     </div>
   </div>
 
-   <!-- Container dos 3 vídeos -->
-  <div class="trabalhos-container">
-    <div class="trabalho-item">
-      <div class="play-button">▶</div>
-    </div>
-    <div class="trabalho-item">
-      <div class="play-button">▶</div>
-    </div>
-    <div class="trabalho-item">
-      <div class="play-button">▶</div>
-    </div>
-  </div>
+  <!-- Container dos 3 vídeos -->
+  <!DOCTYPE html>
+  <html lang="pt-BR">
 
-   <!-- Título: NOSSOS / TRABALHOS -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meus Vídeos</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <div class="trabalhos-container">
+      <div class="trabalho-item" data-video="video/video1.mp4" data-poster="img/capa1.png">
+        <img src="img/capa1.png" alt="Capa 1" class="capa-video">
+        <div class="play-button"><span>▶</span></div>
+      </div>
+
+      <div class="trabalho-item" data-video="video/video2.mp4" data-poster="img/capa2.png">
+        <img src="img/capa2.png" alt="Capa 2" class="capa-video">
+        <div class="play-button"><span>▶</span></div>
+      </div>
+
+      <div class="trabalho-item" data-video="video/video3.mp4" data-poster="img/capa3.png">
+        <img src="img/capa3.png" alt="Capa 3" class="capa-video">
+        <div class="play-button"><span>▶</span></div>
+      </div>
+    </div>
+
+    <div id="video-modal">
+      <video controls autoplay>
+        Seu navegador não suporta vídeos.
+      </video>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+
+  </html>
+
+  <!-- Título: NOSSOS / TRABALHOS -->
   <div class="section-title">
     <h2 class="title-top">NOSSOS</h2>
     <h1 class="title-main">TRABALHOS</h1>
     <div class="separator-line"></div>
   </div>
 
-   <!-- Carrossel -->
+  <!-- Carrossel -->
   <section class="carousel-section">
     <div class="carousel-container">
       <div class="carousel-wrapper">
@@ -91,7 +120,8 @@
           <div class="card-image-placeholder">IMAGEM DO APP</div>
           <div class="card-content">
             <h3>MODSY APP</h3>
-            <p>Um closet inteligente que organiza suas peças, sugere combinações e facilita sua escolha de looks todos os dias.</p>
+            <p>Um closet inteligente que organiza suas peças, sugere combinações e facilita sua escolha de looks todos
+              os dias.</p>
             <button class="install-button">Instalar</button>
           </div>
         </div>
@@ -104,7 +134,8 @@
           <div class="card-image-placeholder">IMAGEM DO APP</div>
           <div class="card-content">
             <h3>GUARDA ROUPA INCLUSIVO</h3>
-            <p>Tecnologia e inclusão juntas: autonomia para pessoas com deficiência visual explorarem seu guarda-roupa de forma prática e acessível.</p>
+            <p>Tecnologia e inclusão juntas: autonomia para pessoas com deficiência visual explorarem seu guarda-roupa
+              de forma prática e acessível.</p>
             <button class="install-button">Instalar</button>
           </div>
         </div>
@@ -117,7 +148,8 @@
           <div class="card-image-placeholder">IMAGEM DO PRODUTO</div>
           <div class="card-content">
             <h3>GUARDA-ROUPA INTELIGENTE</h3>
-            <p>Guarda-roupa inteligente com IoT, conectado a um app e com botões acessíveis para deficientes visuais.</p>
+            <p>Guarda-roupa inteligente com IoT, conectado a um app e com botões acessíveis para deficientes visuais.
+            </p>
             <button class="buy-button">Compre</button>
           </div>
         </div>
@@ -126,7 +158,7 @@
     </div>
   </section>
 
-   <!-- Título: COMO SURGIU / NOSSA IDEIA -->
+  <!-- Título: COMO SURGIU / NOSSA IDEIA -->
   <div class="section-title">
     <h1 class="title-main">COMO SURGIU</h1>
     <h2 class="title-sub">NOSSA IDEIA</h2>
@@ -145,7 +177,9 @@
       <div class="text-column1">
 
         <!-- Parágrafo introdutório -->
-        <p>O Modsy é um app que conecta moda e autoestima. Acreditamos que se vestir é um ato de autoconhecimento: cada look reflete quem somos e como nos sentimos. Assim como a lua passa por fases, nosso estilo também muda — e o Modsy acompanha cada transformação, ajudando a criar outfits que valorizam cada momento da sua jornada.</p>
+        <p>O Modsy é um app que conecta moda e autoestima. Acreditamos que se vestir é um ato de autoconhecimento: cada
+          look reflete quem somos e como nos sentimos. Assim como a lua passa por fases, nosso estilo também muda — e o
+          Modsy acompanha cada transformação, ajudando a criar outfits que valorizam cada momento da sua jornada.</p>
 
         <!-- Linha horizontal -->
         <div class="separator-line"></div>
@@ -154,13 +188,17 @@
         <h2>O COMEÇO</h2>
 
         <!-- Parágrafo explicativo -->
-        <p>Nossa ideia surgiu a partir de diversas inspirações. Nossa equipe já tinha interesse em moda, mas enfrentava dificuldades para montar outfits que nos fizessem sentir confiantes e realmente bonitas. Pensando em uma solução para esse problema, nasceu o Modsy: um aplicativo que auxilia na criação de combinações de roupas com o apoio de uma agente de IA, considerando fatores como clima, peças que o usuário já possui, preferências pessoais e muito mais.</p>
+        <p>Nossa ideia surgiu a partir de diversas inspirações. Nossa equipe já tinha interesse em moda, mas enfrentava
+          dificuldades para montar outfits que nos fizessem sentir confiantes e realmente bonitas. Pensando em uma
+          solução para esse problema, nasceu o Modsy: um aplicativo que auxilia na criação de combinações de roupas com
+          o apoio de uma agente de IA, considerando fatores como clima, peças que o usuário já possui, preferências
+          pessoais e muito mais.</p>
 
       </div>
     </div>
   </section>
 
-   <!-- Seção: App Inclusivo -->
+  <!-- Seção: App Inclusivo -->
   <section class="app-inclusivo">
     <div class="container">
 
@@ -174,7 +212,10 @@
         <h2>APP INCLUSIVO</h2>
 
         <!-- Parágrafo explicativo -->
-        <p>Nossa segunda ideia foi um app integrado a um guarda-roupa inteligente com tecnologia IoT. O usuário controla o guarda-roupa pelo celular, que possui três andares giratórios (roupas de cima, de baixo e calçados) e realiza uma rolagem automática para sugerir outfits completos, tornando o ato de se vestir mais prático, acessível e personalizado, especialmente para pessoas com deficiência visual.</p>
+        <p>Nossa segunda ideia foi um app integrado a um guarda-roupa inteligente com tecnologia IoT. O usuário controla
+          o guarda-roupa pelo celular, que possui três andares giratórios (roupas de cima, de baixo e calçados) e
+          realiza uma rolagem automática para sugerir outfits completos, tornando o ato de se vestir mais prático,
+          acessível e personalizado, especialmente para pessoas com deficiência visual.</p>
 
       </div>
 
@@ -186,7 +227,7 @@
     </div>
   </section>
 
-    <!-- Seção: Sobre Nós -->
+  <!-- Seção: Sobre Nós -->
   <section class="sobre-nos">
     <div class="container">
 
@@ -208,7 +249,10 @@
           <div class="logo-placeholder">LOGO / ÍCONE</div>
 
           <!-- Parágrafo explicativo -->
-          <p>Somos uma equipe apaixonada por moda e tecnologia, formada por pessoas criativas e dedicadas que acreditam no poder da inovação para transformar a forma de se vestir e promover a inclusão. Mais do que desenvolver um app, trabalhamos para oferecer experiências que unem praticidade, estilo e autonomia, facilitando o dia a dia de cada pessoa.</p>
+          <p>Somos uma equipe apaixonada por moda e tecnologia, formada por pessoas criativas e dedicadas que acreditam
+            no poder da inovação para transformar a forma de se vestir e promover a inclusão. Mais do que desenvolver um
+            app, trabalhamos para oferecer experiências que unem praticidade, estilo e autonomia, facilitando o dia a
+            dia de cada pessoa.</p>
 
         </div>
 
@@ -216,7 +260,7 @@
     </div>
   </section>
 
-    <!-- Footer -->
+  <!-- Footer -->
   <footer class="footer">
     <div class="container">
 
@@ -252,5 +296,8 @@
     </div>
   </footer>
 
+</body>
+<body>
+  <script src="script.js"></script>
 </body>
 </html>
